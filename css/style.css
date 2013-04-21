@@ -68,7 +68,8 @@ html[xmlns] #nav{display:block;}
 .offername:hover{color:#97f056;}
 .offercount{font-weight:bold;text-decoration:none;color:#0164b9;-webkit-transition-property:color, border;-webkit-transition-duration:.2s, .2s;-webkit-transition-timing-function:linear, linear;-moz-transition-property:color, border;-moz-transition-duration:.2s, .2s;-moz-transition-timing-function:linear, linear;}
 .offercount:hover{color:#96cdfc;}
-.flag{padding:8px 0px 0px 0px;float:right;margin-right:15px;}
+.flag{padding:8px 0px 0px 0px;float:right;margin-right:15px;opacity:0.5;filter:alpha(opacity=50);-webkit-transition-duration:.3s, .3s;-webkit-transition-timing-function:linear, linear;-moz-transition-duration:.3s, .3s;-moz-transition-timing-function:linear, linear;}
+.flag:hover{opacity:1.0;filter:alpha(opacity=100);}
 .item_image_effect{padding:10px;opacity:0.5;filter:alpha(opacity=50);-webkit-transition-duration:.3s, .3s;-webkit-transition-timing-function:linear, linear;-moz-transition-duration:.3s, .3s;-moz-transition-timing-function:linear, linear;}
 .item_image_effect:hover{opacity:1.0;filter:alpha(opacity=100);}
 

@@ -38,6 +38,7 @@
 	$lang['GLO_GOLD_NAME']='Yang.';
 	$lang['GLO_CHOOSE_SELLER']='Görüntülenecek Satýcý Adýný Seçiniz';
 	$lang['GLO_HIDE']='[Gizlendi]';
+	$lang['GLO_CHANGE_LANG']='Dili Deðiþtir:';
 	
 	$lang['GLO_GOLD_NONE']='Hesabýnýzda <u>hiç</u> yang&#39;ýnýz yok.';
 	$lang['GLO_GOLD']='Hesabýnýzda <u>'.seperate_gold($_SESSION['user_golds']).'</u> yang bulunmaktadýr.';
@@ -110,5 +111,8 @@
 	$lang['COM_ITEM_DESCRIPTION']='Nesne Hakkýnda Açýklama';
 	$lang['COM_CAPTCHA']='Doðrulama Kodu';
 	$lang['COM_CAPTCHA_ANSWER']='Doðrulama Kodunu Yazýnýz';
+	
+	// DEV
+	$lang['DEV_NAME']='Tasarým & Kodlama <a href="http://www.elitepvpers.com/forum/members/2052206--t-rk-.html">-T&#220;RK-.';
 	
 ?>

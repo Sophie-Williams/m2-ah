@@ -38,6 +38,7 @@
 	$lang['GLO_GOLD_NAME']='Gold.';
 	$lang['GLO_CHOOSE_SELLER']='Choose A Seller Name';
 	$lang['GLO_HIDE']='[Hidden]';
+	$lang['GLO_CHANGE_LANG']='Change Language To:';
 	
 	$lang['GLO_GOLD_NONE']='You do not have <u>any</u> gold.';
 	$lang['GLO_GOLD']='You have <u>'.seperate_gold($_SESSION['user_golds']).'</u> golds in your account.';
@@ -110,5 +111,8 @@
 	$lang['COM_ITEM_DESCRIPTION']='Description About Item';
 	$lang['COM_CAPTCHA']='Captcha';
 	$lang['COM_CAPTCHA_ANSWER']='Captcha Answer';
+	
+	// DEV
+	$lang['DEV_NAME']='Design & Code by <a href="http://www.elitepvpers.com/forum/members/2052206--t-rk-.html">-T&#220;RK-.';
 	
 ?>
