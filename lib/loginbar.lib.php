@@ -37,6 +37,11 @@
 			}
 		}
 		?>
+		
+		<div class="flag"><a href="index.php?lang=tr"><img src="./lang/img/tr.png" title="<?=$lang['GLO_CHANGE_LANG'];?> TR" /></a></div>
+		<div class="flag"><a href="index.php?lang=en"><img src="./lang/img/en.png" title="<?=$lang['GLO_CHANGE_LANG'];?> EN" /></a></div>
+
+		
 		<div style="display:none;" id="dialog-confirm_exit" title="<?=$lang['GLO_EXIT_TIT'];?>">
 			<div class="dialog"><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span><?=$lang['GLO_EXIT_QUEST'];?></div>
 		</div>

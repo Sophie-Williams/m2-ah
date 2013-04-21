@@ -4,17 +4,17 @@ function form_control() {
 f=document.forms['offer_form'];
 if (f.item_price.value == '')
 {
-TINY.box.show({html:'<?php echo $lang['ERR_JS_PRICE_TYPE']; ?>',animate:true,close:false,mask:true,boxid:'false',autohide:3,top:-14,left:-17})
+TINY.box.show({html:'<?=$lang['ERR_JS_PRICE_TYPE'];?>',animate:true,close:false,mask:true,boxid:'false',autohide:3,top:-14,left:-17})
 f.item_price.focus();f.item_price.className='false';
 }
 else if (f.item_descr.value == '')
 {
-TINY.box.show({html:'<?php echo $lang['ERR_JS_DESCR_TYPE']; ?>',animate:true,close:false,mask:true,boxid:'false',autohide:3,top:-14,left:-17})
+TINY.box.show({html:'<?=$lang['ERR_JS_DESCR_TYPE'];?>',animate:true,close:false,mask:true,boxid:'false',autohide:3,top:-14,left:-17})
 f.item_descr.focus();f.item_descr.className='false';
 }
 else if (f.captcha.value == '')
 {
-TINY.box.show({html:'<?php echo $lang['ERR_JS_CAPTCHA_TYPE']; ?>',animate:true,close:false,mask:true,boxid:'false',autohide:3,top:-14,left:-17})
+TINY.box.show({html:'<?=$lang['ERR_JS_CAPTCHA_TYPE'];?>',animate:true,close:false,mask:true,boxid:'false',autohide:3,top:-14,left:-17})
 f.captcha.focus();f.captcha.className='false';
 }
 else return true;
